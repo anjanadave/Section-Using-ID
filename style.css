@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #4da0b0, #d39d38);
+}
+
+#section{
+    height: 190vh;
+    width: 70vw;
+    background: white;
+    margin-top: 30px;
+    margin-left: 14vw;
+}
+
+#main{
+    display: flex;
+    padding-top: 30px;
+    margin-left: 40px;
+}
+
+#main li{
+   list-style-type: none;
+   padding: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: darkblue;
+}
+
+#html{
+    width: 62vw;
+    height: 40vh;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    border-radius: 10px;
+    padding-top: 15vh;
+    margin-left: 3.5vw;
+    margin-top: 5vh;
+    background: #574b90;
+    color: #f78fb3;
+}
+
+#html:hover{
+    background: #f78fb3;
+    color:#574b90;
+    transition: 0.3s;
+}
+
+#css{
+    width: 62vw;
+    height: 40vh;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    border-radius: 10px;
+    padding-top: 15vh;
+    margin-left: 3.5vw;
+    margin-top: 5vh;
+    background: #ea8685;
+    color:#596275 ;
+}
+
+#css:hover{
+    background: #596275;
+    color:#ea8685;
+    transition: 0.3s;
+}
+#boot{
+    width: 62vw;
+    height: 40vh;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    border-radius: 10px;
+    padding-top: 15vh;
+    margin-left: 3.5vw;
+    margin-top: 5vh;
+    background:#10ac84 ;
+    color: #273c75;
+}
+
+#boot:hover{
+    background: #273c75;
+    color: #10ac84;
+    transition: 0.3s;
+}
+
+#java{
+    width: 62vw;
+    height: 40vh;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    border-radius: 10px;
+    padding-top: 15vh;
+    margin-left: 3.5vw;
+    margin-top: 5vh;
+    background:#c44569 ;
+    color: #3dc1d3;
+}
+
+#java:hover{
+    background: #3dc1d3;
+    color: #c44569;
+    transition: 0.3s;
+}
